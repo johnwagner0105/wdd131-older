@@ -2,24 +2,33 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-div{
-    border-style: solid;
-}
+
 .header{
     grid-column: 1/5;
+    background-color: #DAD3BE;
+    height: 150px;
 }
 .navbar{
     grid-column: 1/5;
     display: flex;
     justify-content: space-evenly;
+    background-color: #B7B597;
+    align-items: center;
+    height: 80px;
 }
 .main{
     grid-column: 1/4;
+    background-color: #6B8A7A;
+    height: 250px;
 }
 .aside{
     grid-column: 4/5;
+    background-color: #254336;
 }
 .footer{
     grid-column: 1/5;
+    background-color: #808836;
+    text-align: center;
+    height: 200px;
 }
 
