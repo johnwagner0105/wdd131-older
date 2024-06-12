@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+div{
+    border-style: solid;
+}
+.header{
+    grid-column: 1/5;
+}
+.navbar{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    grid-column: 1/4;
+}
+.aside{
+    grid-column: 4/5;
+}
+.footer{
+    grid-column: 1/5;
+}
+
