@@ -1,0 +1,80 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #66CCFF;
+    height: 17vh;
+    justify-content: space-around;
+}
+nav{
+    background-color: #333333;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+img{
+    height: auto;
+    max-height: 200px;
+}
+.content{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+section{
+    border-style: solid;
+    border-radius: 10px;
+}
+li{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.my-description{
+    padding-left: 10px;
+    text-align: start;
+}
+.country-description{
+    padding-right: 10px;
+    text-align: end;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-title{
+    background-color: #66CCFF;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+section.card ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+li a{
+    color: #333333;
+}
+footer{
+    margin-top: 10px;
+    background-color: #66CCFF;
+}
