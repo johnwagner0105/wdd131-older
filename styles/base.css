@@ -23,7 +23,7 @@ a{
     text-decoration: none;
 }
 main{
-    max-width: 600px;
+    max-width: 1500px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
@@ -78,4 +78,7 @@ li a{
 footer{
     margin-top: 10px;
     background-color: #66CCFF;
+}
+nav a:hover{
+background-color: crimson;
 }
