@@ -68,4 +68,6 @@ footer {
     display: flex;
 }
 
-
+nav a:hover{
+    background-color: crimson;
+    }
