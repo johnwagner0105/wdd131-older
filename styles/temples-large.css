@@ -9,7 +9,6 @@
         display:flex;
         flex-direction: row;
         width: auto;
-        align-items: auto;
     }
     #menuOptions{
         display: flex;
