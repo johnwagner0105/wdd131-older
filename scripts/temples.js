@@ -13,3 +13,13 @@ button.addEventListener("click", () => {
     mainNav.classList.toggle("show");
     button.classList.toggle("show");
 });
+
+const title=document.getElementById("title");
+const options=document.querySelectorAll(".links");
+options.forEach(link=>{
+  link.addEventListener("click",(e)=>{
+e.preventDefault();
+const linkText=link.textContent;
+title.textContent=linkText;
+  })
+})
