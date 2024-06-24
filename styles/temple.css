@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #66CCFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+#menuOptions a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.images {
+    display: grid;
+    gap: 30px;
+}
+
+main {
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+footer {
+    background-color: #66CCFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 30px;
+}
+
+#menu {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+#nav.show {
+    display: flex;
+}
+
+
