@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place.css">
+    <title>Italy</title>
+</head>
+<body>
+    <header>
+        <h1>Italy</h1>
+    </header>
+    <main>
+        <div class="hero">
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 721px)">
+            <img src="images/hero-small.webp" alt="Italy-image">
+        </picture>
+    </div>
+    <div class="data">
+        <h2>Data</h2>
+        <p>Data: 301,340 km<sup>2</sup></p>
+        <p>Population: 60,461,826</p>
+        <p>Capital: Rome</p>
+        <p>Languages: Italian</p>
+        <p>Currency: Euro</p>
+        <p>Time Zone: Central European Time (CET)</p>
+        <p>Calling Code: +39</p>
+        <p>Internet TLD: .it</p>
+    </div>
+    <div class="weather">
+        <h2>Weather <img class="icon" src="images/sunny-cloud.svg" alt="weather"></h2>
+        <p id="temperature">9° C</p>
+        <p id="conditions">Partly Cloudy</p>
+        <p id="wind">13 km/h</p>
+        <p id="wind-chill"></p>
+    </div>
+    </main>
+    <footer>
+        <p class="copyright">
+            <span id="currentyear"></span> John Andres Wagner Mendoza - Peru
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>
