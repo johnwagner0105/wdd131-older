@@ -1,3 +1,8 @@
+:root{
+    --title-color:#66CCFF;
+    --transparent-div:rgba(255, 255, 255, 0.8);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +10,7 @@
 }
 
 header{
-    background-color: #66CCFF;
+    background-color: var(--title-color);
 }
 
 .hero{
@@ -46,7 +51,7 @@ header{
 }
 
 footer {
-    background-color: #66CCFF;
+    background-color: var(--title-color);
     text-align: center;
     padding: 10px 0;
 }
@@ -55,11 +60,11 @@ footer {
     .data,.weather{
         position: absolute;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: var(--transparent-div);
     }
 
     .data h2,.weather h2{
-        background-color: #66CCFF;
+        background-color: var(--title-color);
     }
 
     .data {
@@ -70,5 +75,16 @@ footer {
     .weather {
         bottom: 120px; 
         right: 10px; 
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .weather h2::after{
+        content:url("/images/sunny-cloud.svg");
+        display: inline-block;
+        width: 30px;
+        height: 30px;
     }
 }
