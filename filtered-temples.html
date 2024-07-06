@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap" rel="stylesheet">
+<meta
+      name="description"
+      content="The WDD 131 - temples site provides images from different temples around the world."
+    >
+<meta name="author" content="John Wagner" >
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <a id="menu" href="#"></a>
+        <nav id="nav">
+            <div id="menuOptions">
+                <a class="links" href="#home">Home</a>
+                <a class="links" href="#old">Old</a>
+                <a class="links" href="#new">New</a>
+                <a class="links" href="#large">Large</a>
+                <a class="links" href="#small">Small</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 id="title">Home</h2>
+        <select id="templeSelection">
+            <option value="home">Home</option>
+            <option value="old">Old</option>
+            <option value="new">New</option>
+            <option value="large">Large</option>
+            <option value="small">Small</option>
+        </select>
+        <button id="btnSelection">Search</button>
+        <div class="images" id="images">
+            
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">
+            <span id="currentyear"></span> John Andres Wagner Mendoza - Peru
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/filtered-temples.js" defer></script>
+</body>
+</html>
