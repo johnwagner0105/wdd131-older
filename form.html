@@ -21,20 +21,29 @@
 </select>
 
 <p>Overall Rating</p>
-<input type="radio" name="rating" id="radioOption1" required> <label for="radioOption1">☆</label>
-<input type="radio" name="rating" id="radioOption2" required> <label for="radioOption2">☆☆</label>
-<input type="radio" name="rating" id="radioOption3" required> <label for="radioOption3">☆☆☆</label>
-<input type="radio" name="rating" id="radioOption4" required> <label for="radioOption4">☆☆☆☆</label>
-<input type="radio" name="rating" id="radioOption5" required> <label for="radioOption5">☆☆☆☆☆</label>
+<div class="rating">
+    <input type="radio" name="rating" id="radioOption1" required>
+    <label for="radioOption1">☆</label>
+    <input type="radio" name="rating" id="radioOption2" required>
+    <label for="radioOption2">☆☆</label>
+    <input type="radio" name="rating" id="radioOption3" required>
+    <label for="radioOption3">☆☆☆</label>
+    <input type="radio" name="rating" id="radioOption4" required>
+    <label for="radioOption4">☆☆☆☆</label>
+    <input type="radio" name="rating" id="radioOption5" required>
+    <label for="radioOption5">☆☆☆☆☆</label>
+</div>
 
 <label for="dateInput">Date of Installation</label>
 <input type="date" name="dateInput" id="dateInput" required>
 
 <p>Which features did you find usefult in the product? (Check all that apply)</p>
-<input type="checkbox" name="feature1" id="feature1" value="Durability"> <label for="feature1">Durability</label>
-<input type="checkbox" name="feature2" id="feature2" value="Easy of Use"> <label for="feature2">Easy of Use</label> 
-<input type="checkbox" name="feature3" id="feature3" value="Performance"> <label for="feature3">Performance</label> 
-<input type="checkbox" name="feature4" id="feature4" value="Design"> <label for="feature4">Design</label> 
+<div class="features">
+<div><input type="checkbox" name="feature1" id="feature1" value="Durability"> <label for="feature1">Durability</label></div>
+<div><input type="checkbox" name="feature2" id="feature2" value="Easy of Use"> <label for="feature2">Easy of Use</label> </div>
+<div><input type="checkbox" name="feature3" id="feature3" value="Performance"> <label for="feature3">Performance</label> </div>
+<div><input type="checkbox" name="feature4" id="feature4" value="Design"> <label for="feature4">Design</label> </div>
+</div>
 
 <label for="userReview">Written Review (optional)</label>
 <textarea name="userReview" id="userReview"></textarea>

@@ -1,4 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 form{
     display: flex;
     flex-direction: column;
+    width: 400px;
+}
+
+footer {
+    background-color: #66CCFF;
+    text-align: center;
+    padding: 10px 0;
+    width: 400px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    background-color: #66CCFF;
 }
