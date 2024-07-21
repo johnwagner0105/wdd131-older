@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue
+}
+
+header{
+    text-align: center;
+    background-color: aqua;
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+}
+
+.itemCard{
+    width: 100%;
+    overflow: hidden;
+}
+
+.itemCard img{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.productInCart{
+    width: 100%;
+}
+
+#cart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table td{
+    max-width: 200px;
+}
+
+#userForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #66CCFF;
+    text-align: center;
+    padding: 10px 0;
+
+}
